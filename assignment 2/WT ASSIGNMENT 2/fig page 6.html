@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donat Service Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f7d3d3, #c28a8a);
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 60px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.donut-img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.rating {
+    font-size: 30px;
+    color: #090700;
+}
+
+/* ul {
+    list-style: none;
+    padding: 0;
+} */
+
+.request-btn {
+    background: #d36b6b;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #090700;
+}
+
+.description {
+    margin-top: 20px;
+    padding: 15px;
+    /* background: rgba(255,255,255,0.8); */
+    border-radius: 10px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <div class="back-button" onclick="goBack()">&#x21A9;</div>
+            <h1>Donat</h1>
+            <div class="fav-location">
+                <span>Add To Favorite ❤️</span>
+                <span>Location 📍</span>
+            </div>
+        </header>
+        <section class="content">
+            <img src="http://www.skillharbour.com/media/tmp/skill/ed86227e-2678-4eeb-b813-71e39ed79676.jpg.300x186_q85_crop_upscale.jpg" alt="Donut Image" class="donut-img">
+            <div class="info">
+                <h2>Laurie</h2>
+                <p class="rating">&#9733; &#9734; &#9734; &#9734; &#9734;</p>
+                <ul>
+                    <li>2 ratings received</li>
+                    <li>3 skillhours achieved</li>
+                    <li>0 skillhours used</li>
+                </ul>
+                <button class="request-btn">REQUEST THIS SERVICE</button>
+            </div>
+        </section>
+        <section class="description">
+            <h3>Description:-</h3>
+            <p>I teach ordinary people (including non-bakers) how to bake extraordinary bagels at home.</p>
+            <h3>Detail</h3>
+            <p>
+                Learn every step—from feeding the starter to noshing—for baking amazing bagels.
+                I telescope the process into about 2 1/2 hours of hands-on learning. Participants leave with dough
+                to shape, boil, and bake at home, a detailed recipe, and starter.
+                These are probably the most authentic bagels you will ever taste.
+            </p>
+        </section>
+        
+        <!-- Add Skill Exchange Makerspace image here -->
+        
+    </div>
+</body>
+</html>
